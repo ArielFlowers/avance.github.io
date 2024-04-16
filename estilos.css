@@ -1,0 +1,299 @@
+body {
+    font-family: "ROBOTO"; 
+    background: #6e6876;
+    color: #ffffff;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(to right, #B5838C 50%, #FFCDB2 50%);
+}
+
+.container-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 0%;
+}
+
+.navbar {
+    flex-grow: 1;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin-left: 64%;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 20px; /* Espacio entre elementos del menú */
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 14.5px;
+    color: rgb(103, 89, 89);
+    font-weight: 200;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.content-banner{
+    background-image: url('imgprincipal.png');
+    height: 47rem;
+    background-size:cover;
+    background-position:right;
+    margin-top: 0%;
+    max-width: 200rem;
+    margin-top: 0%;
+    margin-left: 10%;
+    padding: 6rem 0;
+}
+
+
+.content-banner p{
+    color: white;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.content-banner h2{
+    color: white;
+    font-size: 6rem;
+}
+
+.content-banner a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+    background-color: #B5838C;
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    border-style:groove;
+}
+
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+}
+
+.About h1{
+    font-size: 50px;
+    margin-top: 10%;
+}
+
+.About p{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5%;
+    align-items: center;
+}
+
+.about-content {
+    max-width: 150rem;
+    display: flex;
+    flex-direction:row;
+}
+
+.about-content .text{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about-content .text h2{
+    font-size: 35px;
+}
+
+.about-content .text h3{
+    font-size: 20px;
+}
+
+.about-content .text p{
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    text-align: left;
+}
+
+.about-content .text a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+    background-color: #6e6876;
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    border-style:groove;
+}
+
+.about-content .images img{
+    max-width: 150rem; /* Ajusta el ancho máximo de las imágenes */
+}
+
+.images {
+    display: flex;
+    flex-direction: column; /* Coloca las imágenes en una columna */
+    align-items: flex-end; /* Alinea las imágenes a la derecha */
+    margin-right: 10%;
+}
+
+.container-direccion {
+    background-color: #B5838C;
+    max-width: 14rem;
+    max-height: 12rem;
+    margin-left: 10%;
+    margin-top: 10%; /* Ajusta el margen superior */
+}
+
+.container-direccion img{
+    max-width: 3rem;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.container-direccion h1{
+    margin-left: 5%;
+}
+
+.container-direccion p{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.container-logo-direccion{
+    display: flex;
+    flex-direction: row;
+}
+
+iframe {
+    display: flex; /* Hacer que el mapa sea un bloque para ajustar el ancho automáticamente */
+    margin-top: 10%; /* Ajusta el margen superior para que coincida con .container-direccion */
+    margin-left: 0%;
+}
+
+.container-logo-direccion .content-localization{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.content-localization h1{
+    font-size: 50px;
+}
+
+.Menu{
+    text-align: center;
+    background-image: url('libretamilk.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    margin-top: 10%;
+}
+
+.menu-content {
+    max-width: 100rem;
+    display: flex;
+}
+
+.content-to-drink,
+.content-to-eat {
+    flex: 1; /* Hace que ocupen el mismo espacio */
+    margin: 0 10px; /* Añade un margen entre las secciones */
+}
+
+.Menu h1{
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.Menu p{
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+
+.content-to-drink h1{
+    font-size: 40px;
+    margin-right: 25%;
+}
+
+.content-to-drink .single-menu{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    margin-left: 27%;
+    border-bottom: 1px dashed #000;
+    margin-bottom: 15px;
+    padding-bottom: 1px;
+}
+
+.content-to-drink .single-menu img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+ 
+.content-to-eat h1{
+    font-size: 40px;
+    margin-right: 75%;
+}
+
+.content-to-eat .single-menu{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    margin-right: 85%;
+}
+
+.content-to-eat .single-menu img{
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+.content-to-drink{
+    background-color: #5a5464;
+}
+.content-to-eat{
+    max-width: 40rem;
+    background-color: #B5838C;
+    margin-right: 10%;
+}
+
+
+.content-to-eat .single-menu{
+    width: 30rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-right: 0%;
+    border-bottom: 1px dashed #000;
+    margin-bottom: 15px;
+    padding-bottom: 1px;
+}
+
+.content-to-eat .single-menu .menu-content h2,p{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    gap: 3rem;
+
+}
+
+
